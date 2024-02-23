@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom */
+.photos{
+    border-radius: 5px;
+    opacity: .7;
+    transition: .5s;
+}
+.photos:hover{
+    opacity: 1;
+    transition: .5s;
+}
